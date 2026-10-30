@@ -1,5 +1,7 @@
 package codingdojo
 
 fun main() {
-    println("Implement me")
+    for (i in 1..100) {
+        println(FizzBuzz.reply(i))
+    }
 }
